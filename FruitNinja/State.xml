@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_201" class="java.beans.XMLDecoder">
+ <object class="Controller.GameState" id="GameState0">
+  <void property="best">
+   <int>35</int>
+  </void>
+  <void property="lives">
+   <int>3</int>
+  </void>
+  <void property="onScreen">
+   <void method="add">
+    <object class="Model.DangerousBomb"/>
+   </void>
+   <void method="add">
+    <object class="Model.Kiwii"/>
+   </void>
+   <void method="add">
+    <object class="Model.Peach"/>
+   </void>
+  </void>
+  <void property="score">
+   <int>20</int>
+  </void>
+ </object>
+</java>
