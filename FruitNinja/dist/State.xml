@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="20.0.1" class="java.beans.XMLDecoder">
+ <object class="Controller.GameState" id="GameState0">
+  <void property="best">
+   <int>51</int>
+  </void>
+  <void property="lives">
+   <int>3</int>
+  </void>
+  <void property="onScreen">
+   <void method="add">
+    <object class="Model.WaterMelon"/>
+   </void>
+   <void method="add">
+    <object class="Model.WaterMelon"/>
+   </void>
+  </void>
+  <void property="score">
+   <int>17</int>
+  </void>
+ </object>
+</java>
